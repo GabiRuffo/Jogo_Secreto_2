@@ -1,7 +1,7 @@
 // Criacao de uma lista/array com os numeros ja sortiados
 // criacao de uma nova variavel para informar quantos elementos ha na lista
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
