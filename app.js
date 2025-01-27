@@ -1,7 +1,7 @@
 // Criacao de uma lista/array com os numeros ja sortiados
 // criacao de uma nova variavel para informar quantos elementos ha na lista
 let listaDeNumerosSorteados = [];
-let numeroLimite = 100;
+let numeroLimite = 50;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -25,7 +25,7 @@ function exibirTextoNaTela(tag, texto){
 // Como exibir a quantidade de 'vezes' que o jogo foi reiniciado
 // Criacao da funcao com as mensagens 
 function exibirMensagemInicial(){
-    exibirTextoNaTela('p', 'Escolha um numero entre 1 e 10');
+    exibirTextoNaTela('p', 'Escolha um numero entre 1 e 50');
     exibirTextoNaTela('h1', 'Jogo do numero secreto');
 }
 exibirMensagemInicial();
